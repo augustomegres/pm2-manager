@@ -188,17 +188,17 @@ export default function IndexPage() {
                 <TableCell>
                   {item.status === "online" && (
                     <Chip color="success" size="sm" variant="dot">
-                      Online
+                      Running
                     </Chip>
                   )}
                   {item.status === "stopped" && (
                     <Chip color="default" size="sm" variant="dot">
-                      Parado
+                      Stopped
                     </Chip>
                   )}
                   {item.status === "errored" && (
                     <Chip color="danger" size="sm" variant="dot">
-                      Erro
+                      Errored
                     </Chip>
                   )}
                 </TableCell>
